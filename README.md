@@ -6,12 +6,6 @@
 <h1 align="center">
     <a href="https://uifort.com/template/carolina-react-admin-dashboard-material-ui-free">Olive Agro Dashboard</a>
     <br>
-    <a href="https://twitter.com/intent/tweet?url=https://uifort.com/template/carolina-react-admin-dashboard-material-ui-free&text=Curious about the features? We&#39;ve set up a live preview for your viewing pleasure.">
-        <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
-    </a>
-    <a href="https://twitter.com/uifort1">
-        <img src="https://img.shields.io/twitter/follow/uifort1.svg?style=social&label=Follow" />
-    </a>
 </h1>
 <div align="center">
 
