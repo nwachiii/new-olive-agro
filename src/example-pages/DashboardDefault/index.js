@@ -7,6 +7,8 @@ import DashboardDefaultSection2 from '../../example-components/DashboardDefault/
 import DashboardDefaultSection3 from '../../example-components/DashboardDefault/DashboardDefaultSection3';
 import DashboardDefaultSection4 from '../../example-components/DashboardDefault/DashboardDefaultSection4';
 import PaginationBasic from '../../example-components/Pagination/PaginationBasic';
+import { VStack } from '@chakra-ui/react';
+
 export default function DashboardDefault() {
   return (
     <Fragment>
@@ -14,11 +16,14 @@ export default function DashboardDefault() {
         titleHeading="Olive-agro"
         titleDescription="Get personalized notifications here... "
       />
+
       <DashboardDefaultSection1 />
-      <PaginationBasic />
       <DashboardDefaultSection2 />
-      <DashboardDefaultSection3 />
-      <DashboardDefaultSection4 />
+      <VStack spacing="4em" my="4em">
+        <PaginationBasic />
+        <DashboardDefaultSection3 />
+        <DashboardDefaultSection4 />
+      </VStack>
     </Fragment>
   );
 }
