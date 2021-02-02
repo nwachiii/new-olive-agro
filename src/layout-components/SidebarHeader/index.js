@@ -39,7 +39,7 @@ const SidebarHeader = props => {
               />
             </IconButton>
           </Link>
-          <Box className="header-logo-text">Carolina</Box>
+          <Box className="header-logo-text">Olive Agro</Box>
         </Box>
         <Box className="app-sidebar-header-btn-mobile">
           <Tooltip title="Toggle Sidebar" placement="right">

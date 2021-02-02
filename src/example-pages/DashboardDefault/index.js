@@ -11,7 +11,7 @@ export default function DashboardDefault() {
     <Fragment>
       <PageTitle
         titleHeading="Olive-agro"
-        titleDescription="This is a seller's dashboard"
+        titleDescription="Get personalized notifications here... "
       />
 
       <DashboardDefaultSection1 />

@@ -180,7 +180,7 @@ const LivePreviewExample = () => {
                   value={values.amount}
                   onChange={handleChange('amount')}
                   startAdornment={
-                    <InputAdornment position="start">$</InputAdornment>
+                    <InputAdornment position="start">#</InputAdornment>
                   }
                 />
               </FormControl>
@@ -256,7 +256,7 @@ const LivePreviewExample = () => {
                   value={values.amount}
                   onChange={handleChange('amount')}
                   startAdornment={
-                    <InputAdornment position="start">$</InputAdornment>
+                    <InputAdornment position="start">#</InputAdornment>
                   }
                 />
               </FormControl>
@@ -334,7 +334,7 @@ const LivePreviewExample = () => {
                   value={values.amount}
                   onChange={handleChange('amount')}
                   startAdornment={
-                    <InputAdornment position="start">$</InputAdornment>
+                    <InputAdornment position="start">#</InputAdornment>
                   }
                   labelWidth={60}
                 />

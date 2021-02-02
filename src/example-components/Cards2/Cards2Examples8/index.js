@@ -124,7 +124,7 @@ export default function LivePreviewExample() {
                       />
                     </div>
                     <div className="mt-3 line-height-sm">
-                      <b className="font-size-lg">$9,693</b>
+                      <b className="font-size-lg">#9,693</b>
                       <span className="text-black-50 d-block">revenue</span>
                     </div>
                   </div>
@@ -193,7 +193,7 @@ export default function LivePreviewExample() {
                       />
                     </div>
                     <div className="mt-3 line-height-sm">
-                      <b className="font-size-lg">$9,693</b>
+                      <b className="font-size-lg">#9,693</b>
                       <span className="text-black-50 d-block">revenue</span>
                     </div>
                   </div>

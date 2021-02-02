@@ -26,7 +26,7 @@ export default function LivePreviewExample() {
                   <div className="text-black-50">Last month targets</div>
                 </div>
                 <div className="font-weight-bold text-warning font-size-xl">
-                  $1,23M
+                  #1,23M
                 </div>
               </div>
               <Divider />
@@ -36,7 +36,7 @@ export default function LivePreviewExample() {
                   <div className="text-black-50">Week's expenses</div>
                 </div>
                 <div className="font-weight-bold text-danger font-size-xl">
-                  - $123,305
+                  - #123,305
                 </div>
               </div>
               <Divider />
@@ -120,7 +120,7 @@ export default function LivePreviewExample() {
                 </div>
                 <div className="font-weight-bold text-first font-size-lg">
                   {' '}
-                  $1,23M
+                  #1.23M
                 </div>
               </div>
             </CardContent>
@@ -179,7 +179,7 @@ export default function LivePreviewExample() {
                 <div className="d-flex align-items-center">
                   <div className="font-weight-bold text-first font-size-lg pr-2">
                     {' '}
-                    $12,23M
+                    #12.23M
                   </div>
                   <FontAwesomeIcon
                     icon={['fas', 'arrow-up']}

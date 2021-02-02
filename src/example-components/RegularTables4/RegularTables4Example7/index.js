@@ -187,7 +187,7 @@ export default function LivePreviewExample() {
                   </div>
                 </td>
                 <td className="text-center">
-                  <span className="font-weight-bold text-danger">-$254</span>
+                  <span className="font-weight-bold text-danger">-#254</span>
                 </td>
                 <td className="text-center">
                   <span className="text-danger font-weight-bold">-2,374</span>
@@ -226,7 +226,7 @@ export default function LivePreviewExample() {
                   </div>
                 </td>
                 <td className="text-center">
-                  <span className="font-weight-bold">$18,386</span>
+                  <span className="font-weight-bold">#18,386</span>
                 </td>
                 <td className="text-center">
                   <span className="text-danger font-weight-bold">-6,310</span>
@@ -265,7 +265,7 @@ export default function LivePreviewExample() {
                   </div>
                 </td>
                 <td className="text-center">
-                  <span className="font-weight-bold">$6,356</span>
+                  <span className="font-weight-bold">#6,356</span>
                 </td>
                 <td className="text-center">
                   <span className="text-warning">-374</span>
@@ -304,7 +304,7 @@ export default function LivePreviewExample() {
                   </div>
                 </td>
                 <td className="text-center">
-                  <span className="font-weight-bold">$16,281</span>
+                  <span className="font-weight-bold">#16,281</span>
                 </td>
                 <td className="text-center">
                   <span className="text-success">+684</span>
@@ -316,7 +316,7 @@ export default function LivePreviewExample() {
                   <div className="d-flex align-items-center justify-content-end">
                     <div className="font-weight-bold font-size-lg pr-2">
                       {' '}
-                      $12,23M
+                      #12.23M
                     </div>
                     <FontAwesomeIcon
                       icon={['fas', 'arrow-up']}

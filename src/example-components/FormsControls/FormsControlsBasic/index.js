@@ -16,8 +16,8 @@ import { FormLabel, FormGroup } from '@material-ui/core';
 
 const currencies = [
   {
-    value: 'USD',
-    label: '$'
+    value: 'NGN',
+    label: '#'
   },
   {
     value: 'EUR',
@@ -33,7 +33,7 @@ const currencies = [
   }
 ];
 export default function LivePreviewExample() {
-  const [currency, setCurrency] = React.useState('EUR');
+  const [currency, setCurrency] = React.useState('NGN');
 
   const handleChange = event => {
     setCurrency(event.target.value);

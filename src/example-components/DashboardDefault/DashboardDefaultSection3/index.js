@@ -246,7 +246,7 @@ export default function LivePreviewExample() {
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
                     <span className="text-black-50 d-block">Revenue</span>
-                    <b className="font-size-xxl">$9,693</b>
+                    <b className="font-size-xxl">#9,693</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4} className="align-box-row">
@@ -286,7 +286,7 @@ export default function LivePreviewExample() {
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
                     <span className="text-black-50 d-block">Revenue</span>
-                    <b className="font-size-xxl">$9,693</b>
+                    <b className="font-size-xxl">#9,693</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4} className="align-box-row">
@@ -328,7 +328,7 @@ export default function LivePreviewExample() {
                     <Grid item xs={12} md={4}>
                       <div className="text-center">
                         <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl">$9,693</b>
+                        <b className="font-size-xxl">#9,693</b>
                       </div>
                     </Grid>
                     <Grid item xs={12} md={4} className="align-box-row">
@@ -370,7 +370,7 @@ export default function LivePreviewExample() {
                     <Grid item xs={12} md={4}>
                       <div className="text-center">
                         <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl text-danger">$6,465</b>
+                        <b className="font-size-xxl text-danger">#6,465</b>
                       </div>
                     </Grid>
                     <Grid item xs={12} md={4} className="align-box-row">
@@ -416,7 +416,7 @@ export default function LivePreviewExample() {
                           className="font-size-xxl text-success my-3"
                         />
                         <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl">$9,693</b>
+                        <b className="font-size-xxl">#9,693</b>
                       </div>
                     </Grid>
                   </Grid>
@@ -434,7 +434,7 @@ export default function LivePreviewExample() {
                   </div>
                   <div className="line-height-sm text-center ml-4">
                     <b className="font-size-lg text-success">
-                      <small className="text-black-50 pr-1">$</small>
+                      <small className="text-black-50 pr-1">#</small>
                       1,754
                     </b>
                   </div>
@@ -447,7 +447,7 @@ export default function LivePreviewExample() {
                   </div>
                   <div className="line-height-sm text-center ml-4">
                     <b className="font-size-lg text-info">
-                      <small className="text-black-50 pr-1">$</small>
+                      <small className="text-black-50 pr-1">#</small>
                       7,428
                     </b>
                   </div>
@@ -460,7 +460,7 @@ export default function LivePreviewExample() {
                   </div>
                   <div className="line-height-sm text-center ml-4">
                     <b className="font-size-lg text-danger">
-                      <small className="text-black-50">$</small>
+                      <small className="text-black-50">#</small>
                       5,358
                     </b>
                   </div>

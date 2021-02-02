@@ -39,14 +39,14 @@ const Footer = props => {
             </List>
           </div> */}
           <div className="app-footer--second">
-            <span>Carolina React Admin Dashboard with Material-UI Free</span> ©
-            2020 - crafted with <span className="text-danger px-1">❤</span> by{' '}
+            <span>A React-redux Admin Dashboard with Material-UI</span> © 2020 -
+            crafted with <span className="text-danger px-1">❤</span> by{' '}
             <a
-              href="https://uifort.com"
+              href="https://doshservices.com"
               rel="noopener noreferrer"
               target="_blank"
               title="UiFort.com">
-              oliveagro.com
+              doshservices.com
             </a>
           </div>
         </div>

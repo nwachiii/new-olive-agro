@@ -54,7 +54,7 @@ export default function LivePreviewExample() {
                   </div>
                   <div className="ml-auto">
                     <div className="font-size-xl font-weight-bold text-danger">
-                      <small>$</small>
+                      <small>#</small>
                       2.3M
                     </div>
                   </div>
@@ -128,7 +128,7 @@ export default function LivePreviewExample() {
                       Totals
                     </small>
                     <b className="font-size-lg text-success">
-                      <small className="pr-1 text-black-50">$</small>
+                      <small className="pr-1 text-black-50">#</small>
                       1,628
                     </b>
                   </div>
@@ -148,7 +148,7 @@ export default function LivePreviewExample() {
                       Totals
                     </small>
                     <b className="font-size-lg text-info">
-                      <small className="text-black-50 pr-1">$</small>
+                      <small className="text-black-50 pr-1">#</small>
                       7,389
                     </b>
                   </div>
@@ -168,7 +168,7 @@ export default function LivePreviewExample() {
                       Totals
                     </small>
                     <b className="font-size-lg text-danger">
-                      <small className="text-black-50 pr-1">$</small>
+                      <small className="text-black-50 pr-1">#</small>
                       8,493
                     </b>
                   </div>
@@ -188,7 +188,7 @@ export default function LivePreviewExample() {
                       Totals
                     </small>
                     <b className="font-size-lg text-warning">
-                      <small className="text-black-50 pr-1">$</small>
+                      <small className="text-black-50 pr-1">#</small>
                       2,594
                     </b>
                   </div>
