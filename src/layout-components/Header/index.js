@@ -3,14 +3,7 @@ import React, { Fragment } from 'react';
 import clsx from 'clsx';
 import { Link } from 'react-router-dom';
 
-import {
-  Hidden,
-  IconButton,
-  AppBar,
-  Box,
-  Button,
-  Tooltip
-} from '@material-ui/core';
+import { Hidden, IconButton, AppBar, Box, Tooltip } from '@material-ui/core';
 
 import { connect } from 'react-redux';
 
@@ -46,7 +39,7 @@ const Header = props => {
           <Hidden lgUp>
             <Box
               className="app-logo-wrapper"
-              title="Carolina React Admin Dashboard with Material-UI Free">
+              title="Olive Agro Seller's Dashboard">
               <Link to="/DashboardDefault" className="app-logo-link">
                 <IconButton
                   color="primary"
@@ -54,35 +47,14 @@ const Header = props => {
                   className="app-logo-btn">
                   <img
                     className="app-logo-img"
-                    alt="Carolina React Admin Dashboard with Material-UI Free"
+                    alt="olive agro project"
                     src={projectLogo}
                   />
                 </IconButton>
               </Link>
               <Hidden smDown>
-                <Box className="app-logo-text">Carolina</Box>
+                <Box className="app-logo-text">OLIVE AGRO</Box>
               </Hidden>
-            </Box>
-          </Hidden>
-          <Hidden mdDown>
-            <Box className="d-flex align-items-center">
-              <Button
-                href="https://uifort.com/template/carolina-react-admin-dashboard-material-ui-free"
-                target="_blank"
-                size="small"
-                variant="contained"
-                color="default"
-                className="mr-3">
-                Download now
-              </Button>
-              <Button
-                href="https://uifort.com/template/carolina-react-admin-dashboard-material-ui-pro"
-                target="_blank"
-                size="small"
-                variant="contained"
-                color="primary">
-                View PRO Version
-              </Button>
             </Box>
           </Hidden>
           <Box className="d-flex align-items-center">
