@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import clsx from 'clsx';
 
-import { Paper, List, ListItem, ListItemText } from '@material-ui/core';
+import { Paper } from '@material-ui/core';
 
 import { connect } from 'react-redux';
 
@@ -16,7 +16,7 @@ const Footer = props => {
           'app-footer--fixed': footerFixed
         })}>
         <div className="app-footer--inner">
-          <div className="app-footer--first">
+          {/* <div className="app-footer--first">
             <List dense className="d-flex align-items-center">
               <ListItem
                 className="rounded-sm text-nowrap"
@@ -24,8 +24,8 @@ const Footer = props => {
                 component="a"
                 href="https://uifort.com/template/carolina-react-admin-dashboard-material-ui-free"
                 target="_blank"
-                rel="noopener">
-                <ListItemText primary="Download now" />
+                rel="noopener noreferrer">
+                <ListItemText primary="Purchase now" />
               </ListItem>
               <ListItem
                 className="rounded-sm text-nowrap"
@@ -33,20 +33,20 @@ const Footer = props => {
                 component="a"
                 href="https://uifort.com/template/carolina-react-admin-dashboard-material-ui-pro"
                 target="_blank"
-                rel="noopener">
+                rel="noopener noreferrer">
                 <ListItemText primary="View PRO Version" />
               </ListItem>
             </List>
-          </div>
+          </div> */}
           <div className="app-footer--second">
             <span>Carolina React Admin Dashboard with Material-UI Free</span> ©
             2020 - crafted with <span className="text-danger px-1">❤</span> by{' '}
             <a
               href="https://uifort.com"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
               title="UiFort.com">
-              UiFort.com
+              oliveagro.com
             </a>
           </div>
         </div>
