@@ -6,6 +6,7 @@ import DashboardDefaultSection1 from '../../example-components/DashboardDefault/
 import DashboardDefaultSection2 from '../../example-components/DashboardDefault/DashboardDefaultSection2';
 import DashboardDefaultSection3 from '../../example-components/DashboardDefault/DashboardDefaultSection3';
 import DashboardDefaultSection4 from '../../example-components/DashboardDefault/DashboardDefaultSection4';
+import PaginationBasic from '../../example-components/Pagination/PaginationBasic';
 export default function DashboardDefault() {
   return (
     <Fragment>
@@ -13,8 +14,8 @@ export default function DashboardDefault() {
         titleHeading="Olive-agro"
         titleDescription="Get personalized notifications here... "
       />
-
       <DashboardDefaultSection1 />
+      <PaginationBasic />
       <DashboardDefaultSection2 />
       <DashboardDefaultSection3 />
       <DashboardDefaultSection4 />
